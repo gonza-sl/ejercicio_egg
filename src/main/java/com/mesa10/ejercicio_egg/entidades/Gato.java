@@ -12,6 +12,7 @@ public class Gato {
     private long id;
     private String nombre;
     private String raza;
+    private String duenio;
 
     public Gato() {
     }
@@ -46,6 +47,14 @@ public class Gato {
         this.raza = raza;
     }
 
+    public String getDuenio() {
+        return duenio;
+    }
+
+    public void setDuenio(String duenio) {
+        this.duenio = duenio;
+    }
+    
     @Override
     public String toString() {
         return "Gato{" + "id=" + id + ", nombre=" + nombre + ", raza=" + raza + '}';
